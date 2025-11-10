@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/lathi1704/NXTLVL'
+                git branch: 'main', url: 'https://github.com/lathi1704/NXTLVL.git
             }
         }
 
